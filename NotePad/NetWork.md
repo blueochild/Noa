@@ -40,6 +40,14 @@
    _데이터의 전송단위_ 이며 정보 기술에서 패킷 방식의 컴퓨터 네트워크가 전달하는 데이터의 형식화된 블록이다.
    제어 정보와 사용자 데이터로 이루어지며, 이는 페이로드라고도 합니다.
 
+#### DNS ( Domain Name System ) :
+
+   호스트의 도메인 이름을 호스트의 네트워크 주소로 바꾸거나 그 반대의 변환을 수행할 수 있도록 하기 위해 개발되었다.   
+   네이버라는 사이트에 들어가려면 본래의 네트워크 주소가 아닌 도메인 주소인naver.com만 검색하면 들어갈 수 있다.   
+   아래는 그 예시이다, 실제로 해당 도메인과 네트워크 주소를 주소창에 입력하면 같은 사이트로 이동한다.
+    
+    125.209.222.141 -> https://www.naver.com/ 
+
 ***
 
 ## 출처
@@ -51,6 +59,6 @@
     - [프로토콜](https://ko.wikipedia.org/wiki/%ED%86%B5%EC%8B%A0_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)
     - [OSI 7 Layer](https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95)
     - [패킷](https://ko.wikipedia.org/wiki/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%ED%8C%A8%ED%82%B7)
-    - []()
+    - [도메인](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
     - []()
     - []()
