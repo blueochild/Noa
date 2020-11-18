@@ -19,7 +19,7 @@
 #### - 네트워크의 종류 :
    - PAN ( Personal Area Network ) : 
    
-       **가장 작은 규모**의 네트워크
+       _가장 작은 규모_ 의 네트워크
        
    - LAN ( Local Area Network) : 
    
