@@ -16,14 +16,27 @@
    
   노드들이 자원을 공유할 수 있게 하는 디지털 전기통신망의 하나, 분산되어 있는 컴퓨터를 **통신망**으로 연결한 것
 
-#### LAN ( Local Area Network) : 
+#### - 네트워크의 종류 :
+   - PAN ( Personal Area Network ) : 
    
-   _근거리 통신망_, 네트워크 매체를 이용하여 집, 사무실, 학교 등의 건물과 같은 **가까운 지역**을 한데 묶는 컴퓨터 네트워크이다.
+       **가장 작은 규모**의 네트워크
+       
+   - LAN ( Local Area Network) : 
    
-#### WAN ( Wide Area Network ) :
+       _근거리 통신망_, 네트워크 매체를 이용하여 집, 사무실, 학교 등의 건물과 같은 **가까운 지역**을 한데 묶는 컴퓨터 네트워크이다.
    
-   _원거리 통신망_, 여러개의 LAN이 모여 이루는 넓은 범위의 네트워크이다.   
-   최소 두 개 이상의 LAN이 넓은 지역에 걸쳐 연결될 형태를 의미하며 지역간, 더 넓은 의미로는 **국가간** 서로 연결하는 네트워크를 말한다.
+   - MAN (Metropolitan Area Network) : 
+   
+       _대도시_ 영역 네트워크
+   
+   - WAN ( Wide Area Network ) :
+   
+       _원거리 통신망_, 여러개의 LAN이 모여 이루는 넓은 범위의 네트워크이다.   
+       최소 두 개 이상의 LAN이 넓은 지역에 걸쳐 연결될 형태를 의미하며 지역간, 더 넓은 의미로는 **국가간** 서로 연결하는 네트워크를 말한다.
+   
+   - VAN (Value Added Network) : 
+   
+       부가가치 통신망 정보의 축적과 제공, 통신속도와 형식의 변화, 통신경로의 선택 등 여러 종류의 정보서비스가 부가된 통신망.
    
 #### 프로토콜 ( Protocol ) :
    
@@ -51,14 +64,8 @@
 ***
 
 ## 출처
-
- - 네트워크 용어
-    - [네트워크](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
-    - [LAN](https://ko.wikipedia.org/wiki/%EA%B7%BC%EA%B1%B0%EB%A6%AC_%ED%86%B5%EC%8B%A0%EB%A7%9D)
-    - [WAN](https://m.blog.naver.com/PostView.nhn?blogId=lsh10432&logNo=220735911378&proxyReferer=https:%2F%2Fwww.google.com%2F)
-    - [프로토콜](https://ko.wikipedia.org/wiki/%ED%86%B5%EC%8B%A0_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)
-    - [OSI 7 Layer](https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95)
-    - [패킷](https://ko.wikipedia.org/wiki/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%ED%8C%A8%ED%82%B7)
-    - [도메인](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
-    - []()
-    - []()
+  
+  https://coding-factory.tistory.com/340
+  
+  https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%8C%80%EB%AC%B8
+  
