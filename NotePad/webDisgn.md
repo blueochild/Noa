@@ -16,6 +16,32 @@
      
 슬라이드 위 -> 아래는 marginLeft를 marginTop으로 고쳐쓰고 css에서 세로로 이미지가 정렬되게 한다.
 
+### 슬라이드 fadein, fadeout
+     
+     # html
+     
+     <div class="main">
+          <div id="slide">
+               <div><img src="https://placeimg.com/750/750/any/grayscale" alt=""></div>
+               <div><img src="https://placeimg.com/1000/750/any" alt=""></div>
+               <div><img src="https://placeimg.com/750/800/any/grayscale" alt=""></div>
+               <div><img src="https://placeimg.com/1000/800/any" alt=""></div>
+          </div>
+     </div>
+
+     # js
+
+     $('#slide > div:gt(0)').hide();
+
+     setInterval(function(){
+          $('#slide > div:first')
+               .fadeOut(1000)
+               .next()
+               .fadeIn(1000)
+               .end()
+               .appendTo('#slide');
+     },3000);
+
 ***
 
 ### 헤더의 메뉴바
