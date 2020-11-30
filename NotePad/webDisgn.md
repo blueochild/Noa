@@ -18,19 +18,20 @@
 
 ### 슬라이드 fadein, fadeout
      
-     # html
+     $('#slide3>ul>li').hide(); 
+     $('#slide3>ul>li:first-child').show(); 
+     setInterval(function(){ 
+          $('#slide3>ul>li:first-child')
+               .fadeOut() 
+               .next().fadeIn()
+               .end(1000) 
+               .appendTo('#slide>ul');         
+      },3000);
+
+     (https://sudal89.tistory.com/47)
+
+     or
      
-     <div class="main">
-          <div id="slide">
-               <div><img src="https://placeimg.com/750/750/any/grayscale" alt=""></div>
-               <div><img src="https://placeimg.com/1000/750/any" alt=""></div>
-               <div><img src="https://placeimg.com/750/800/any/grayscale" alt=""></div>
-               <div><img src="https://placeimg.com/1000/800/any" alt=""></div>
-          </div>
-     </div>
-
-     # js
-
      $('#slide > div:gt(0)').hide();
 
      setInterval(function(){
